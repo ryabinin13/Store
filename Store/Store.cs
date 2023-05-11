@@ -10,7 +10,9 @@ namespace Store
     {
         List<Load> loads = new List<Load>();
 
-        
+        public delegate void Message(string message);
+
+        public event Message MessageEvent;
 
         public void AddProduct(Load load)
         {
@@ -18,10 +20,13 @@ namespace Store
             {
                 if (item.Id == load.Id)
                 {
-                    throw new Exception("идентификатор товара не может совпадать");
+                    MessageEvent?.Invoke("ошибка, такой id уже существует");
+                    return;
+                    //throw new Exception("идентификатор товара не может совпадать");
                 }
             }
             loads.Add(load);
+            MessageEvent?.Invoke($"добавлен товар с id: {load.Id}");
         }
 
         public List<Load> GetLoads()

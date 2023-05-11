@@ -21,25 +21,27 @@ namespace Store
 
         Store store = new Store();
         
+        public void ShowMessageError(string s)
+        {
+            MessageBox.Show(s);
+
+        }
         private void buttonAdd_Click(object sender, EventArgs e)
         {
+            store.MessageEvent += ShowMessageError;
+
             Load load = new Load();
 
-            try
-            {                
-                load.Id = Convert.ToInt32(numericUpDownIdForAdd.Value);
-                load.Name = textBoxName.Text;            
-                load.Area = Convert.ToInt32(numericUpDownAreaForAdd.Value);
-                load.Date = dateTimePickerForAdd.Value;                
-                load.StorageCost = Convert.ToInt32(numericUpDownCostForAdd.Value);
-                load.Category = comboBoxCategoryForAdd.Text;
-                store.AddProduct(load);
-                numericUpDownIdForAdd.Value++;
-            }
-            catch (Exception)
-            {
-                MessageBox.Show("Ошибка, введите еще раз");
-            }
+                            
+            load.Id = Convert.ToInt32(numericUpDownIdForAdd.Value);
+            load.Name = textBoxName.Text;            
+            load.Area = Convert.ToInt32(numericUpDownAreaForAdd.Value);
+            load.Date = dateTimePickerForAdd.Value;                
+            load.StorageCost = Convert.ToInt32(numericUpDownCostForAdd.Value);
+            load.Category = comboBoxCategoryForAdd.Text;
+            store.AddProduct(load);
+            numericUpDownIdForAdd.Value++;
+            
                        
             textBoxName.Text = "";            
         }
