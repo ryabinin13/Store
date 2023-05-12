@@ -102,7 +102,7 @@ namespace Store
             this.textBoxName.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.textBoxName.Location = new System.Drawing.Point(181, 110);
             this.textBoxName.Name = "textBoxName";
-            this.textBoxName.Size = new System.Drawing.Size(195, 26);
+            this.textBoxName.Size = new System.Drawing.Size(195, 22);
             this.textBoxName.TabIndex = 4;
             // 
             // label1
@@ -111,7 +111,7 @@ namespace Store
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label1.Location = new System.Drawing.Point(10, 82);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(96, 20);
+            this.label1.Size = new System.Drawing.Size(78, 16);
             this.label1.TabIndex = 7;
             this.label1.Text = "Id товара";
             // 
@@ -121,7 +121,7 @@ namespace Store
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label2.Location = new System.Drawing.Point(10, 114);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(45, 20);
+            this.label2.Size = new System.Drawing.Size(37, 16);
             this.label2.TabIndex = 8;
             this.label2.Text = "Имя";
             // 
@@ -131,7 +131,7 @@ namespace Store
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label3.Location = new System.Drawing.Point(10, 151);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(95, 20);
+            this.label3.Size = new System.Drawing.Size(73, 16);
             this.label3.TabIndex = 9;
             this.label3.Text = "Площадь";
             // 
@@ -141,7 +141,7 @@ namespace Store
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label4.Location = new System.Drawing.Point(6, 194);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(180, 20);
+            this.label4.Size = new System.Drawing.Size(144, 16);
             this.label4.TabIndex = 10;
             this.label4.Text = "Дата поступления";
             // 
@@ -151,7 +151,7 @@ namespace Store
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label5.Location = new System.Drawing.Point(10, 234);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(180, 20);
+            this.label5.Size = new System.Drawing.Size(139, 16);
             this.label5.TabIndex = 11;
             this.label5.Text = "Стоимость в день";
             // 
@@ -173,7 +173,7 @@ namespace Store
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label6.Location = new System.Drawing.Point(12, 482);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(96, 20);
+            this.label6.Size = new System.Drawing.Size(78, 16);
             this.label6.TabIndex = 15;
             this.label6.Text = "Id товара";
             // 
@@ -195,7 +195,7 @@ namespace Store
             this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label7.Location = new System.Drawing.Point(560, 556);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(96, 20);
+            this.label7.Size = new System.Drawing.Size(78, 16);
             this.label7.TabIndex = 18;
             this.label7.Text = "Id товара";
             // 
@@ -217,7 +217,7 @@ namespace Store
             this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label8.Location = new System.Drawing.Point(12, 519);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(242, 20);
+            this.label8.Size = new System.Drawing.Size(191, 16);
             this.label8.TabIndex = 22;
             this.label8.Text = "до какого числа хранить";
             // 
@@ -236,7 +236,7 @@ namespace Store
             this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label9.Location = new System.Drawing.Point(427, 93);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(96, 20);
+            this.label9.Size = new System.Drawing.Size(78, 16);
             this.label9.TabIndex = 25;
             this.label9.Text = "Id товара";
             // 
@@ -257,7 +257,7 @@ namespace Store
             this.dateTimePickerForAdd.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.dateTimePickerForAdd.Location = new System.Drawing.Point(181, 194);
             this.dateTimePickerForAdd.Name = "dateTimePickerForAdd";
-            this.dateTimePickerForAdd.Size = new System.Drawing.Size(195, 26);
+            this.dateTimePickerForAdd.Size = new System.Drawing.Size(195, 22);
             this.dateTimePickerForAdd.TabIndex = 27;
             // 
             // dateTimePickerForCalculate
@@ -265,17 +265,17 @@ namespace Store
             this.dateTimePickerForCalculate.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.dateTimePickerForCalculate.Location = new System.Drawing.Point(245, 519);
             this.dateTimePickerForCalculate.Name = "dateTimePickerForCalculate";
-            this.dateTimePickerForCalculate.Size = new System.Drawing.Size(187, 26);
+            this.dateTimePickerForCalculate.Size = new System.Drawing.Size(187, 22);
             this.dateTimePickerForCalculate.TabIndex = 28;
             // 
             // listBoxPrint
             // 
             this.listBoxPrint.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.listBoxPrint.FormattingEnabled = true;
-            this.listBoxPrint.ItemHeight = 20;
-            this.listBoxPrint.Location = new System.Drawing.Point(962, 109);
+            this.listBoxPrint.ItemHeight = 16;
+            this.listBoxPrint.Location = new System.Drawing.Point(936, 109);
             this.listBoxPrint.Name = "listBoxPrint";
-            this.listBoxPrint.Size = new System.Drawing.Size(277, 344);
+            this.listBoxPrint.Size = new System.Drawing.Size(556, 340);
             this.listBoxPrint.TabIndex = 29;
             // 
             // numericUpDownIdForAdd
@@ -283,7 +283,7 @@ namespace Store
             this.numericUpDownIdForAdd.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.numericUpDownIdForAdd.Location = new System.Drawing.Point(181, 78);
             this.numericUpDownIdForAdd.Name = "numericUpDownIdForAdd";
-            this.numericUpDownIdForAdd.Size = new System.Drawing.Size(198, 26);
+            this.numericUpDownIdForAdd.Size = new System.Drawing.Size(198, 22);
             this.numericUpDownIdForAdd.TabIndex = 30;
             this.numericUpDownIdForAdd.Value = new decimal(new int[] {
             1,
@@ -296,7 +296,7 @@ namespace Store
             this.numericUpDownAreaForAdd.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.numericUpDownAreaForAdd.Location = new System.Drawing.Point(181, 151);
             this.numericUpDownAreaForAdd.Name = "numericUpDownAreaForAdd";
-            this.numericUpDownAreaForAdd.Size = new System.Drawing.Size(196, 26);
+            this.numericUpDownAreaForAdd.Size = new System.Drawing.Size(196, 22);
             this.numericUpDownAreaForAdd.TabIndex = 31;
             this.numericUpDownAreaForAdd.Value = new decimal(new int[] {
             1,
@@ -314,7 +314,7 @@ namespace Store
             0,
             0});
             this.numericUpDownCostForAdd.Name = "numericUpDownCostForAdd";
-            this.numericUpDownCostForAdd.Size = new System.Drawing.Size(198, 26);
+            this.numericUpDownCostForAdd.Size = new System.Drawing.Size(198, 22);
             this.numericUpDownCostForAdd.TabIndex = 32;
             this.numericUpDownCostForAdd.Value = new decimal(new int[] {
             1000,
@@ -327,7 +327,7 @@ namespace Store
             this.numericUpDownIdForSIzeMoney.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.numericUpDownIdForSIzeMoney.Location = new System.Drawing.Point(245, 478);
             this.numericUpDownIdForSIzeMoney.Name = "numericUpDownIdForSIzeMoney";
-            this.numericUpDownIdForSIzeMoney.Size = new System.Drawing.Size(188, 26);
+            this.numericUpDownIdForSIzeMoney.Size = new System.Drawing.Size(188, 22);
             this.numericUpDownIdForSIzeMoney.TabIndex = 33;
             this.numericUpDownIdForSIzeMoney.Value = new decimal(new int[] {
             1,
@@ -340,7 +340,7 @@ namespace Store
             this.numericUpDownIdForFind.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.numericUpDownIdForFind.Location = new System.Drawing.Point(529, 90);
             this.numericUpDownIdForFind.Name = "numericUpDownIdForFind";
-            this.numericUpDownIdForFind.Size = new System.Drawing.Size(63, 26);
+            this.numericUpDownIdForFind.Size = new System.Drawing.Size(63, 22);
             this.numericUpDownIdForFind.TabIndex = 34;
             this.numericUpDownIdForFind.Value = new decimal(new int[] {
             1,
@@ -353,7 +353,7 @@ namespace Store
             this.numericUpDownIdForDelete.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.numericUpDownIdForDelete.Location = new System.Drawing.Point(675, 556);
             this.numericUpDownIdForDelete.Name = "numericUpDownIdForDelete";
-            this.numericUpDownIdForDelete.Size = new System.Drawing.Size(140, 26);
+            this.numericUpDownIdForDelete.Size = new System.Drawing.Size(140, 22);
             this.numericUpDownIdForDelete.TabIndex = 35;
             this.numericUpDownIdForDelete.Value = new decimal(new int[] {
             1,
@@ -367,7 +367,7 @@ namespace Store
             this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label10.Location = new System.Drawing.Point(16, 559);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(106, 20);
+            this.label10.Size = new System.Drawing.Size(87, 16);
             this.label10.TabIndex = 36;
             this.label10.Text = "Результат";
             // 
@@ -389,7 +389,7 @@ namespace Store
             this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label11.Location = new System.Drawing.Point(12, 282);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(107, 20);
+            this.label11.Size = new System.Drawing.Size(85, 16);
             this.label11.TabIndex = 39;
             this.label11.Text = "Категория";
             // 
@@ -397,9 +397,9 @@ namespace Store
             // 
             this.label12.AutoSize = true;
             this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label12.Location = new System.Drawing.Point(959, 90);
+            this.label12.Location = new System.Drawing.Point(952, 82);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(96, 20);
+            this.label12.Size = new System.Drawing.Size(78, 16);
             this.label12.TabIndex = 41;
             this.label12.Text = "Id товара";
             // 
@@ -407,9 +407,9 @@ namespace Store
             // 
             this.label13.AutoSize = true;
             this.label13.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label13.Location = new System.Drawing.Point(1076, 90);
+            this.label13.Location = new System.Drawing.Point(1151, 82);
             this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(45, 20);
+            this.label13.Size = new System.Drawing.Size(37, 16);
             this.label13.TabIndex = 42;
             this.label13.Text = "Имя";
             // 
@@ -422,16 +422,16 @@ namespace Store
             "книги"});
             this.comboBoxCategoryForAdd.Location = new System.Drawing.Point(181, 281);
             this.comboBoxCategoryForAdd.Name = "comboBoxCategoryForAdd";
-            this.comboBoxCategoryForAdd.Size = new System.Drawing.Size(198, 25);
+            this.comboBoxCategoryForAdd.Size = new System.Drawing.Size(198, 21);
             this.comboBoxCategoryForAdd.TabIndex = 43;
             // 
             // label14
             // 
             this.label14.AutoSize = true;
             this.label14.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label14.Location = new System.Drawing.Point(1154, 90);
+            this.label14.Location = new System.Drawing.Point(1036, 82);
             this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(107, 20);
+            this.label14.Size = new System.Drawing.Size(85, 16);
             this.label14.TabIndex = 44;
             this.label14.Text = "Категория";
             // 
@@ -464,15 +464,15 @@ namespace Store
             this.textBoxForFindName.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.textBoxForFindName.Location = new System.Drawing.Point(690, 90);
             this.textBoxForFindName.Name = "textBoxForFindName";
-            this.textBoxForFindName.Size = new System.Drawing.Size(183, 26);
+            this.textBoxForFindName.Size = new System.Drawing.Size(183, 22);
             this.textBoxForFindName.TabIndex = 47;
             // 
             // StoreForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 17F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.ClientSize = new System.Drawing.Size(1294, 599);
+            this.ClientSize = new System.Drawing.Size(1504, 599);
             this.Controls.Add(this.textBoxForFindName);
             this.Controls.Add(this.buttonSearchName);
             this.Controls.Add(this.buttonGroupByCategory);

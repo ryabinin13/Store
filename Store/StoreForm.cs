@@ -21,14 +21,14 @@ namespace Store
 
         Store store = new Store();
         
-        public void ShowMessageError(string s)
+        public void ShowMessage(string s)
         {
             MessageBox.Show(s);
 
         }
         private void buttonAdd_Click(object sender, EventArgs e)
         {
-            store.MessageEvent += ShowMessageError;
+            store.MessageEvent += ShowMessage;
 
             Load load = new Load();
 
@@ -85,9 +85,32 @@ namespace Store
             }     
         }
 
+        public DateTime Date()
+        {
+            return dateTimePickerForCalculate.Value;
+        }
+
+        public int AmountOfMoneyMethod()
+        {
+            Load load = store.SearchID(Convert.ToInt32(numericUpDownIdForDelete.Value));
+
+            var diferent = dateTimePickerForCalculate.Value - load.Date;
+
+            return Convert.ToInt32(diferent.Days * load.StorageCost);
+            
+        }
+
         private void buttonDelete_Click(object sender, EventArgs e)
-        {            
+        {
             int currentIdDelete = Convert.ToInt32(numericUpDownIdForDelete.Value);
+
+            store.MessageEvent += ShowMessage;
+
+            store.dataEvent += Date;
+
+            store.amountOfMoneyEvent += AmountOfMoneyMethod;
+
+            
             store.DeleteProduct(currentIdDelete);
         }
 

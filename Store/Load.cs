@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Store
 {
-    class Load
+    public class Load
     {
         public Load()
         {
@@ -30,7 +30,7 @@ namespace Store
 
         public string Info()
         {
-            return Id + "\t" + Name + "\t" + Category;
+            return Id + "\t" + Category + "\t" + Name;
         }
     }
 }

@@ -42,12 +42,23 @@ namespace Store
         {
             return loads.FindAll(item => item.Name == name);
         }
+        public delegate DateTime data();
+
+        public event data dataEvent;
+
+        public delegate int amountOfMoney();
+
+        public event amountOfMoney amountOfMoneyEvent;
         public void DeleteProduct(int id)
         {
             foreach (var item in loads)
             {
                 if (item.Id == id)
                 {
+                    
+                    MessageEvent?.Invoke($"Отправлен товар с id {item.Id}" + '\n' +
+                                         $"Дата отпраки: {dataEvent?.Invoke()}" + '\n' + 
+                                         $"Стоимость хранения груза {amountOfMoneyEvent?.Invoke()}");
                     loads.Remove(item);
                     break;
                 }
