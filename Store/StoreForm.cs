@@ -13,6 +13,9 @@ namespace Store
 {
     public partial class StoreForm : Form
     {
+        
+
+
         public StoreForm()
         {
             InitializeComponent();
@@ -29,21 +32,17 @@ namespace Store
         private void buttonAdd_Click(object sender, EventArgs e)
         {
             store.MessageEvent += ShowMessage;
+            AddForm af = new AddForm();
 
-            Load load = new Load();
+            af.LoadForAdd = null;
 
-                            
-            load.Id = Convert.ToInt32(numericUpDownIdForAdd.Value);
-            load.Name = textBoxName.Text;            
-            load.Area = Convert.ToInt32(numericUpDownAreaForAdd.Value);
-            load.Date = dateTimePickerForAdd.Value;                
-            load.StorageCost = Convert.ToInt32(numericUpDownCostForAdd.Value);
-            load.Category = comboBoxCategoryForAdd.Text;
-            store.AddProduct(load);
-            numericUpDownIdForAdd.Value++;
-            
-                       
-            textBoxName.Text = "";            
+            af.ShowDialog();
+
+            if (af.LoadForAdd != null)
+            {
+                store.AddProduct(af.LoadForAdd);
+            }
+                                 
         }
 
         private void buttonPrint_Click(object sender, EventArgs e)
@@ -230,6 +229,11 @@ namespace Store
             {
                 MessageBox.Show("Товара с данным id не найдено");
             }
+        }
+
+        public void MethodForAddForm(Load load)
+        {
+            store.AddProduct(load);
         }
     }
 }
